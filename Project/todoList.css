@@ -1,0 +1,33 @@
+.done {
+    opacity: 0.5;
+}
+
+.done .card-body div:first-child{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.card .form-control {
+    display: none;
+}
+
+.card .saveBtn {
+    display: none;
+}
+
+.editing .form-control {
+    display: block;
+}
+
+.editing .card-body div:first-child {
+    display: none;
+}
+
+.editing .editBtn {
+    display: none;
+}
+
+.editing .saveBtn {
+    display: inline-block;
+}
+
